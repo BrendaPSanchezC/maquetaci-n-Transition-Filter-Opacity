@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.seccion1
+{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.seccion1 h5{
+    color: #F23869;
+}
+.galeria{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 5px;
+}
+.seccion2{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.seccion2 h5{
+    color: #F23869;
+}
+.team{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+.team article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 50%;
+    margin: 5px;
+    padding: 0;
+}
+.team article figure{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.team article figure img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    transition: filter 0.3s ease;
+    filter: grayscale(100%);
+}
+.team img:hover{
+    filter: grayscale(0%);
+}
+.team h5{
+    color: #bab9b9;
+}
+.redes{
+    width: 90%;
+    border-top: 1px #E6E6E6 solid;
+    margin: 5px;
+    justify-content: center;
+    padding: 10px;
+}
+.redes a{
+    margin: 5px;
+    font-size: 1rem;
+    color: #bab9b9;
+}
+.redes a:hover{
+    color: black;
+}
+.seccion3{
+    background-color: #F7F7F7;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.seccion3 h5{
+    color: #F23869;
+}
+.price{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.price article{
+    background-color: #fffefe;
+    border: 1px #F7F7F7 solid;
+    width: 30%;
+    flex-direction: row;
+    margin: 20px;
+}
+.plan{
+    margin-top: 20px;
+}
+.plan i{
+    font-size: 2rem;
+    color:#ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.costo{
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.costo h2{
+    font-size: 3rem;
+}
+.signo{
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+.month{
+    font-size: 1rem;
+    margin: 4px;
+    color: #F23869;
+}
+.descrip ul{
+    list-style: none;
+    margin: 40px;
+}
+.descrip ul li{
+    margin: 15px;
+    color: #9e9c9c;
+}
+.seccion3 button{
+    color: black;
+    background-color: #ffffff;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 2px black solid;
+}
+.price article:hover{
+    box-shadow: 0px 0px 30px #ccc;
+}
+.seccion3 button:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
