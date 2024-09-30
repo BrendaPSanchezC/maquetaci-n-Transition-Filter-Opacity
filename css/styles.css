@@ -14,6 +14,15 @@
 .seccion1 h5{
     color: #F23869;
 }
+.seccion1 p{
+    font-size: 1.5rem;
+}
+.seccion2 p{
+    font-size: 1.5rem;
+}
+.seccion3 p{
+    font-size: 1.5rem;
+}
 .galeria{
     width: 1200px;
     display: flex;
@@ -189,8 +198,9 @@
     font-size: 3rem;
 }
 .signo{
-    font-size: 1rem;
-    padding-bottom: 20px;
+    font-size: 0.8rem;
+    position: relative;
+    top: -5px;
 }
 .month{
     font-size: 1rem;
@@ -231,6 +241,9 @@
 }
 .seccion4 h5{
     color: #F23869;
+}
+.tit{
+    font-size: 1.5rem;
 }
 .blog{
     width: 1200px;
